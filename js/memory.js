@@ -17,6 +17,8 @@ var c9 = document.getElementById('c9');
 var c10 = document.getElementById('c10');
 var c11 = document.getElementById('c11');
 
+var refreshButton = document.getElementById('refreshButton');
+
 c0.addEventListener("click", function () { revealCard(0); });
 c1.addEventListener("click", function () { revealCard(1); });
 c2.addEventListener("click", function () { revealCard(2); });
@@ -31,6 +33,8 @@ c8.addEventListener("click", function () { revealCard(8); });
 c9.addEventListener("click", function () { revealCard(9); });
 c10.addEventListener("click", function () { revealCard(10); });
 c11.addEventListener("click", function () { revealCard(11); });
+
+refreshButton.addEventListener("click", function () {  location.reload()  });
 
 var oneVisible = false;
 var turnCounter = 0;
